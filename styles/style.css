@@ -136,3 +136,62 @@
     margin-bottom: 60px;
     margin-left: 65px;
 }
+/* Footer Styles */
+.footer{
+    display: flex;
+    background-color: #151414;
+}
+.footer-items{
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-bottom: 130px;
+}
+.footer-tittle{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+.footer-description{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footer-email{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.footer-phone{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+a{
+    margin-right: 16px;
+    text-decoration: none;
+}
+.footer-sub{
+    margin-left: 180px;
+    margin-top: 130px;
+}
+.subscribe{
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.input-email{
+    font-size: 18px;
+    color: #F3F3F3;
+    padding-top: 21px;
+    padding-left: 21px;
+    padding-bottom: 21px;
+    background: #151414;
+    border: #FFFFFF;
+    border-radius: 5px;
+}
+.sub-button{
+    margin-top: 16px;
+    text-align: center;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    border-radius: 5px;
+}
