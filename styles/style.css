@@ -1,6 +1,5 @@
 *{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Banner styles */
@@ -9,7 +8,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    align-items: left;
+    /* align-items: left; */
+    background-position: center;
+    position: relative;
+    height: 100%;
+
 } 
 .banner-tittle{
     color: #151414;
@@ -30,19 +33,22 @@
     background-color: #F15B22;
     border-radius: 5px;
     height: 64px;
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
     margin-right: 230px;
     margin-bottom: 166px;
     text-align: center;
+    border: 0;
 }
 .button-right{
     text-align: right;
 }
 
 /* Person Section Style */
+
 .person{
     display: flex;
 }
@@ -79,6 +85,10 @@
 }
 
 /* My Plane styles */
+.plane{
+    align-items: center;
+    margin: 0 200px;
+}
 .plane-tittle{
     margin-top: 130px;
     margin-bottom: 56px;
@@ -89,17 +99,17 @@
 }
 .plane-section{
     display: flex;
-    gap: 30px;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: space-evenly;
 }
 .my-plans-tittle{
     color: #151414;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 }
 .my-plans-description{
     color: #737272;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -135,6 +145,8 @@
     margin-top: 24px;
     margin-bottom: 60px;
     margin-left: 65px;
+    border: 0;
+    border-radius: 5px;
 }
 /* Footer Styles */
 .footer{
@@ -182,8 +194,9 @@ a{
     padding-top: 21px;
     padding-left: 21px;
     padding-bottom: 21px;
+    padding-right: 158px;
     background: #151414;
-    border: #FFFFFF;
+    border: 2px solid #FFFFFF;
     border-radius: 5px;
 }
 .sub-button{
